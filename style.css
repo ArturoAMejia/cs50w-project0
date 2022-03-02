@@ -41,4 +41,6 @@ body {
     color: #fff;
 }
 
-.container {}
+#content {
+    float: right;
+}
