@@ -1,17 +1,18 @@
 body {
-    margin-left: 5px;
-    margin-right: 5px;
-    font-family: 'Lato';
-}
-
-#id {
-    color: #fff;
+    /* margin-left: 5px;
+    margin-right: 5px; */
+    font-family: "Lato";
 }
 
 .bg-opacity {
     margin-top: 5px;
     position: relative;
     background-color: #000;
+}
+
+#btn-bgstroke {
+    text-decoration: none;
+    color: #fff;
 }
 
 .bg-opacity::before {
