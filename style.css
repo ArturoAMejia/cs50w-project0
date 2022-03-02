@@ -1,62 +1,43 @@
-.responsive-banner {
-    margin: 80px auto;
-    width: 40%;
-    min-width: 230px;
-    max-width: 330px;
-    position: relative;
-    height: auto;
-    min-height: 300px;
-    max-height: 500px;
-    border-radius: 10px;
-    overflow: hidden;
-    background-image: linear-gradient(to bottom right, #d45ba1, #a784e0);
+body {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Lato';
 }
 
-.container-envelope {
-    padding: 35px 15px;
+#id {
     color: #fff;
 }
 
-img {
-    max-width: 330px;
-    width: 100%;
+.bg-opacity {
+    margin-top: 5px;
     position: relative;
+    background-color: #000;
 }
 
-span:after,
-span:before {
-    content: "";
-    position: absolute;
+.bg-opacity::before {
+    content: " ";
     display: block;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.1);
-    width: 50px;
-    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.5;
+    background: url("/img/3\ plantas-2.jpg") no-repeat center center;
+    background-size: cover;
 }
 
-.circle-a:before {
-    width: 500px;
-    height: 500px;
-    top: -300px;
-    left: 52%;
-    -webkit-transform: translate(-50%, 0);
-    -ms-transform: translate(-50%, 0);
-    transform: translate(-50%, 0);
+.content {
+    padding-top: 210px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
 }
 
-.circle-a:after {
-    top: 160px;
-    right: 10%;
-}
-
-.circle-b:before {
-    top: 60%;
-    left: -25px;
-}
-
-.circle-b:after {
-    width: 150px;
-    height: 150px;
-    bottom: -70px;
-    right: -70px;
-}
+.container {}

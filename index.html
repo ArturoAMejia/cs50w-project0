@@ -5,39 +5,161 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet" />
     <title>Taller de Arte Xolotl</title>
 </head>
 
 <body>
     <!--NavBar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Taller de Arte Xolotl</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">About</a>
-                    <a class="nav-link" href="#">Art</a>
-                    <a class="nav-link" href="#">Contact</a> >
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #18181b">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-item nav-link" href="#">Features</a>
+                <a class="nav-item nav-link" href="#">Pricing</a>
+                <a class="nav-item nav-link disabled" href="#">Disabled</a>
             </div>
         </div>
     </nav>
     <!--Banner-->
+    <section class="bg-opacity">
+        <div class="content">
+            <div h1-content>
+                <h1>
+                    Obras de Armando <br /> Mejia Godoy
+                </h1>
+            </div>
 
-    <aside class="responsive-banner">
-        <span class="circle-a"></span>
-        <span class="circle-b"></span>
-        <img src="/img/3 plantas-2_opt.jpg" />
-        <div class="container-envelope">
-            <p>Live Sites using our WordPress Themes</p>
-            <a target="_blank" href="https://www.silocreativo.com/en/showcase/" class="more-link">Get inspired</a>
+            <a href="contact.html" class="btn-bgstroke">Contactanos</a>
         </div>
-    </aside>
+    </section>
+
+    <!--Grid de 4 columnas para cuadros-->
+    <div class="card-deck">
+        <div class="card">
+            <img class="card-img-top" src="/img/3 plantas-2_opt.jpg" alt="Card image cap" />
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                    This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="/img/Casa del Jaguar-2_opt.jpg" alt="Card image cap" />
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                    <b>Autor:</b> Armando Mejia Godoy <br />
+                    <b>Coleccion:</b> America Nuestra <br />
+                    <b>Tecnica:</b> Mixta acrilica<br />
+                    <b>Dimensiones:</b> 0.86m x 1.18m
+                </p>
+                <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="/img/El hombre tras el jaguar, el jaguar tras el hombre-2_opt.jpg" alt="Card image cap" />
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                    This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                </p>
+                <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-deck">
+        <div class="card">
+            <img class="card-img-top" src="/img/Chalupa del jaguar.jpg" alt="Card image cap" />
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                    This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                </p>
+                <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="..." alt="Card image cap" />
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                    This card has supporting text below as a natural lead-in to additional content.
+                </p>
+                <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="..." alt="Card image cap" />
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                    This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                </p>
+                <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-deck">
+        <div class="card">
+            <img class="card-img-top" src="..." alt="Card image cap" />
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                    This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                </p>
+                <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="..." alt="Card image cap" />
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                    This card has supporting text below as a natural lead-in to additional content.
+                </p>
+                <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="..." alt="Card image cap" />
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                    This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                </p>
+                <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
