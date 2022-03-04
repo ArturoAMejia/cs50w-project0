@@ -1,21 +1,89 @@
 body {
-    /* margin-left: 5px;
-    margin-right: 5px; */
-    font-family: "Lato";
+  font-family: "Lato";
 }
 
 .bg-opacity {
-    margin-top: 5px;
-    position: relative;
-    background-color: #000;
+  margin-top: 5px;
+  position: relative;
+  background-color: #000;
 }
 
 #btn-bgstroke {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .bg-opacity::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.5;
+  background: url("/img/3\ plantas-2.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.content {
+  padding-top: 210px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+
+#content {
+  float: right;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+}
+
+.content-bio{
+    justify-content: center;
+}
+
+.card-bio{
+    margin: 20px;
+    position: relative;
+    padding-right: 18rem;
+    padding-left: 18rem;
+    height: 100%;
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    justify-content: center;
+}
+
+@media(max-width:768px){
+    .card-bio{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+.lista{
+    list-style: none;
+}
+
+/*Banner de Biografia*/
+.bg-opacity-about {
+    margin-top: 5px;
+    position: relative;
+    background-color: #fff;
+  }
+
+.bg-opacity-about::before {
     content: " ";
     display: block;
     position: absolute;
@@ -25,22 +93,6 @@ body {
     height: 100%;
     z-index: 0;
     opacity: 0.5;
-    background: url("/img/3\ plantas-2.jpg") no-repeat center center;
-    background-size: cover;
-}
-
-.content {
-    padding-top: 210px;
-    margin-bottom: 20px;
-    position: relative;
-    width: 100%;
-    height: 600px;
-    font-size: 16px;
-    font-weight: 700;
-    text-align: center;
-    color: #fff;
-}
-
-#content {
-    float: right;
-}
+    background: url("/img/bio1.jpeg") no-repeat center center;
+    background-size: auto;
+  }
