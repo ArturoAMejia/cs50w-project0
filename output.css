@@ -1,0 +1,26 @@
+#btn-bgstroke {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-nav a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 3px;
+  margin: 5px;
+}
+
+.card, .card-bio, .h1-content {
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #fff;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+#btn-bgstroke:hover {
+  cursor: pointer;
+  color: #312e81;
+}
+
+/*# sourceMappingURL=output.css.map */
