@@ -1,5 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Lato";
+}
+
+h5 {
+  font-weight: bold;
 }
 
 .bg-opacity {
@@ -38,6 +47,12 @@ body {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  .content {
+    width: 100%;
+  }
+}
+
 #content {
   float: right;
 }
@@ -62,13 +77,6 @@ body {
   height: auto;
   text-align: justify;
   justify-content: center;
-}
-
-@media (max-width: 768px) {
-  .card-bio {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
 }
 
 .lista {
@@ -109,4 +117,22 @@ body {
 .form-contacto {
   padding-left: 5rem;
   padding-right: 5rem;
+}
+
+.container {
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .card-bio {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .row {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+  }
 }
